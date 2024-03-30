@@ -15,7 +15,7 @@ let mood='create'
 let tmp;
 let dt;
 let searchmood='title'
-if(localStorage.product != ''){dt=JSON.parse(localStorage.product)}
+if(localStorage.product != ""){dt=JSON.parse(localStorage.product)}
 else{dt=[]}
 
 
