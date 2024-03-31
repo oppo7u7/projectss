@@ -24,7 +24,7 @@ function total1(){
                          ; total.innerText=result; total.style.backgroundColor='green'}
                    else{total.innerText="0000"; total.style.backgroundColor='rgb(247, 57, 57)'}} 
                    
-submit.onfocus=function(){
+submit.onkeyup=function(){
 let data={titles:title.value,
           prices:price.value,
           taxess:taxes.value,
