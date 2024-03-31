@@ -14,6 +14,7 @@ let searchs=document.getElementById('search')
 let mood='create'
 let tmp;
 let dt;
+localStorage.oop="j"
 let searchmood='title'
 if(localStorage.product != ""){dt=JSON.parse(localStorage.product)}
 else{dt=[]}
