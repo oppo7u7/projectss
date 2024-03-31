@@ -170,9 +170,9 @@ else{for(let i=0;i<dt.length;i++){
 
 
 
-     alert("hello")
-
 }}
 tbody.innerHTML=table
 }
+
+alert("hello")
 
